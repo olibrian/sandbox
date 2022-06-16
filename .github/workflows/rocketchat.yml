@@ -1,4 +1,4 @@
-name: Test group message
+name: Notify Hitobito Office
 
 on:
   pull_request:
@@ -13,8 +13,8 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./
         with:
-          message: ${{ github.event.pull_request.html_url }}
+          message: 'New Pull Reqest: ' & ${{ github.event.pull_request.html_url }}
           ROCKET_CHAT_HOOK: ${{ secrets.ROCKET_CHAT_HOOK }}
           ROCKET_CHAT_URL: ${{ secrets.ROCKET_CHAT_HOST }}
-          BOT_NAME: 'Harold'
-          BOT_AVATAR: 'https://media.metrolatam.com/2019/10/16/18ps27-638137169a2d73
+          BOT_NAME: 'Hitnina'
+          BOT_AVATAR: 'https://media.metrolatam.com/2019/10/16/18ps27-638137169a2d73f9f63481c115a7f092.jpg'
