@@ -1,0 +1,20 @@
+name: Test group message
+
+on:
+  pull_request:
+    types: 
+      - opened
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Test
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./
+        with:
+          message: ${{ github.event.pull_request.html_url }}
+          ROCKET_CHAT_HOOK: ${{ secrets.ROCKET_CHAT_HOOK }}
+          ROCKET_CHAT_URL: ${{ secrets.ROCKET_CHAT_HOST }}
+          BOT_NAME: 'Harold'
+          BOT_AVATAR: 'https://media.metrolatam.com/2019/10/16/18ps27-638137169a2d73
