@@ -1,7 +1,7 @@
 name: Notify Hitobito Office
 
 on:
-  pull_request:
+  issue:
     types: 
       - opened
 
