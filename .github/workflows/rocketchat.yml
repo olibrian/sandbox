@@ -1,4 +1,5 @@
 name: Notify Hitobito Office
+uses: daniL16/action-notify-rocketChat@2.0.1
 
 on:
   issues:
