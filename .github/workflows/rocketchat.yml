@@ -20,5 +20,6 @@ jobs:
           message: 'Hello'
           ROCKET_CHAT_HOOK: ${{ secrets.ROCKET_CHAT_HOOK }}
           ROCKET_CHAT_URL: ${{ secrets.ROCKET_CHAT_HOST }}
+          MESSAGE_TO: obrian
           BOT_NAME: 'Hitnina'
           BOT_AVATAR: 'https://media.metrolatam.com/2019/10/16/18ps27-638137169a2d73f9f63481c115a7f092.jpg'
