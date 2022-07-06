@@ -29,3 +29,4 @@ jobs:
           ROCKET_CHAT_URL: ${{ secrets.ROCKET_CHAT_HOST }}
           BOT_NAME: $ACTOR_NAME
           BOT_AVATAR: $ACTOR_AVATAR
+      - run: echo "Message $MESSAGE"
