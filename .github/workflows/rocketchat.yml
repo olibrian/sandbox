@@ -24,9 +24,9 @@ jobs:
       - uses: actions/checkout@v1
       - uses: daniL16/action-notify-rocketChat@2.0.1
         with:
-          message: $MESSAGE
+          message: "New Issue/PR: $ISSUE_NUMBER - $ISSUE_TITLE - $ISSUE_URL"
           ROCKET_CHAT_HOOK: ${{ secrets.ROCKET_CHAT_HOOK }}
           ROCKET_CHAT_URL: ${{ secrets.ROCKET_CHAT_HOST }}
           BOT_NAME: $ACTOR_NAME
           BOT_AVATAR: $ACTOR_AVATAR
-      - run: echo "Message $MESSAGE"
+    #  - run: echo "New Issue/PR: $ISSUE_NUMBER - $ISSUE_TITLE - $ISSUE_URL"
