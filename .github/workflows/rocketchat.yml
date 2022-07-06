@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Notify-Hitobito
     env:
-       ISSUE_URL: ${{ github.event.issue.login }}
+       ISSUE_URL: ${{ github.event.issue.html_url }}
        ISSUE_TITLE: ${{ github.event.issue.title }}
        ISSUE_NUMBER: ${{ github.event.issue.number }}
-       ACTOR_URL: ${{ github.event.issue.actor.login }}
+       ACTOR_URL: ${{ github.event.issue.actor.html_url }}
        ACTOR_NAME: ${{ github.event.issue.actor.login }}
        ACTOR_AVATAR: ${{ github.event.issue.actor.avatar_url }}
     #   MESSAGE: "New Issue/PR: $ISSUE_NUMBER - $ISSUE_TITLE - $ISSUE_URL"
