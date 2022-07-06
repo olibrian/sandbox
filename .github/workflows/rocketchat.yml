@@ -12,15 +12,15 @@ jobs:
   send_message:
     runs-on: ubuntu-latest
     name: Notify-Hitobito
+    env:
+       ISSUE_URL: ${{ github.event.issue.login }}
+       ISSUE_TITLE:  ${{ github.event.issue.title }}
+       ISSUE_NUMBER:  ${{ github.event.issue.number }}
+       ACTOR_URL: ${{ github.event.issue.actor.login }}
+       ACTOR_NAME: ${{ github.event.issue.actor.login }}
+       ACTOR_AVATAR: ${{ github.event.issue.actor.avatar_url }}
+       MESSAGE: "New Issue/PR: $ISSUE_NUMBER - $ISSUE_TITLE - $ISSUE_URL"
     steps:
-      - env:
-          ISSUE_URL: ${{ github.event.issue.login }}
-          ISSUE_TITLE:  ${{ github.event.issue.title }}
-          ISSUE_NUMBER:  ${{ github.event.issue.number }}
-          ACTOR_URL: ${{ github.event.issue.actor.login }}
-          ACTOR_NAME: ${{ github.event.issue.actor.login }}
-          ACTOR_AVATAR: ${{ github.event.issue.actor.avatar_url }}
-          MESSAGE: "New Issue/PR: $ISSUE_NUMBER - $ISSUE_TITLE - $ISSUE_URL"
       - uses: actions/checkout@v1
       - uses: daniL16/action-notify-rocketChat@2.0.1
         with:
