@@ -1,6 +1,5 @@
 name: Notify Hitobito Office
 
-
 on:
   issues:
     types: 
@@ -10,16 +9,28 @@ on:
       -opened
 
 jobs:
-  test:
+  send_message:
     runs-on: ubuntu-latest
-    name: Test
+    name: Notify-Hitobito
     steps:
+      - env:
+          ISSUE_URL: ${{ github.event.issue.login }}
+          ISSUE_TITLE:  ${{ github.event.issue.title }}
+          ISSUE_NUMBER:  ${{ github.event.issue.number }}
+          ACTOR_URL: ${{ github.event.issue.actor.login }}
+          ACTOR_NAME: ${{ github.event.issue.actor.login }}
+          ACTOR_AVATAR: ${{ github.event.issue.actor.avatar_url }}
+          MESSAGE: "New Issue/PR: $ISSUE_NUMBER - $ISSUE_TITLE - $ISSUE_URL"
       - uses: actions/checkout@v1
       - uses: daniL16/action-notify-rocketChat@2.0.1
         with:
-          message: 'Hello'
+          message: $MESSAGE
           ROCKET_CHAT_HOOK: ${{ secrets.ROCKET_CHAT_HOOK }}
           ROCKET_CHAT_URL: ${{ secrets.ROCKET_CHAT_HOST }}
-          MESSAGE_TO: obrian
-          BOT_NAME: 'Hitnina'
-          BOT_AVATAR: 'https://media.metrolatam.com/2019/10/16/18ps27-638137169a2d73f9f63481c115a7f092.jpg'
+          BOT_NAME: $ACTOR_NAME
+          BOT_AVATAR: $ACTOR_AVATAR
+      - name: Messages
+        run: |
+            echo "::group::Message send"
+            echo "Message send: $MESSAGE"
+            echo "::endgroup::"
