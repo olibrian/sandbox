@@ -29,7 +29,3 @@ jobs:
           ROCKET_CHAT_URL: ${{ secrets.ROCKET_CHAT_HOST }}
           BOT_NAME: $ACTOR_NAME
           BOT_AVATAR: $ACTOR_AVATAR
-      - run: |
-            echo "::group::Message send"
-            echo "Message send: $MESSAGE"
-            echo "::endgroup::"
