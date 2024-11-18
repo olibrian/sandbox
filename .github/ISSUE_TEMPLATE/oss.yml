@@ -36,3 +36,91 @@ body:
     attributes:
       label: Ansprechperson und Prüfung
       description: Benennen Sie die Bundesbehörde (Organisationseinheit), die Ansprechperson und die für die rechtliche Prüfung verantwortlichen Personen (bspw. ISBO/DSBO, die die Einhaltung der Publikationsvorgaben geprüft haben.
+- type: checkboxes
+  id: new_legacy
+  attributes:
+    label: Neue Software oder Legacy
+    description: Handelt es sich um neue Software oder ein bestehendes Projekt (siehe [Em002-2] Abschnitt 3.1).
+    options:
+      - label: Legacy (Weiterentwicklung)
+      - label: Neue Software
+      - label: Legacy oder Weiterentwicklung Legacy Software
+      - label: Bestehendes Projekt Dritter (→ Checkliste OSS-Community ausfüllen)
+- type: checkboxes
+  id: lifecycle
+  attributes:
+    label: Life Cycle
+    description: In welchem Stadium des Life Cycle ist die Software aktuell (siehe [Em002-2] Abschnitt 3.1).
+    options:
+      - label: Geplant
+      - label: In Entwicklung
+      - label: Im Betrieb
+      - label: End of Life
+      - label: Archiv
+- type: checkboxes
+  id: Nutzende
+  attributes:
+    label: Nutzende
+    description: Gibt es potenzielle oder bereits bekannte Personen oder Organisationen, welche die Software nutzen? Gibt es potenzielle Abnehmer der Software? Mögliche und bekannte Nutzende können im Text aufgeführt werden.
+    options:
+      - label: Keine vorstellbar
+      - label: Potenzielle Nutzende
+      - label: Bekannte Nutzende
+- type: checkboxes
+  id: Eigenentwicklung
+  attributes:
+    label: Eigenentwicklung, Gemeinsame Entwicklung oder Drittprojekt
+    description: Wie ist die Grundstruktur? Handelt es sich um eine Eigenentwicklung des Bundes, eine Zusammenarbeit oder wird auf einem Drittprojekt aufgebaut?  Die Struktur von Co-Entwicklung und Drittprojekt kann im Textblock aufgeführt werden (siehe [Em002-2] Abschnitt 3.1). 
+    options:
+      - label: Eigenentwicklung
+      - label: Gemeinsame Entwicklung («Em002-4.1 Checkliste OSS-Community» ausfüllen)
+      - label: Drittprojekt («Em002-4.1 Checkliste OSS-Community» ausfüllen)
+- type: checkboxes
+  id: Veröffentlichen
+  attributes:
+    label: Wer veröffentlicht die Software?
+    description: -
+    options:
+      - label: Bundesbehörde
+      - label: Leistungserbringer
+      - label: Lieferant
+      - label: Dritte
+- type: checkboxes
+  id: Tiefe
+  attributes:
+    label: Tiefe der Freigabe
+    description: Resultat aus «Em002-4.1 Checkliste Community».
+    options:
+      - label: Minimalpublikation
+      - label: Issue-Tracking: Fehler können gemeldet werden und werden behandelt.
+      - label: Community
+- type: checkboxes
+  id: Freigabe
+  attributes:
+    label: Freigabe
+    description: Die Abklärungen gemäss [Em002-2] Abschnitt 3.2 sind durchgeführt. Das Eigentum der Software liegt beim Bund oder wird durch Mitarbeitende des Bundes (intern oder extern) entwickelt. Begründung insbesondere, wenn nein. Es muss auch dargelegt werden, warum die Rechte nicht beim Bund liegen, und welche Abklärungen getroffen wurden für die Abklärung proprietärer Teile, sowie was bezüglich möglicher Hindernisse (z.B. Patentschutz) unternommen wurde, bzw. wie weit Abklärungen erfolgten.
+    options:
+      - label: Es liegt keine Verletzung von Rechten Dritter vor (zum Beispiel: Patentrechte, Geistiges Eigentum, Marken- oder Musterschutz).
+        required: true
+      - label: Es liegen keine sicherheitsrelevanten Gründe vor, welche eine Veröffentlichung verhindern.
+        required: true
+      - label: Das Grundsätzliches Einverständnis und die Machbarkeit zur Veröffentlichung der Applikation als Open Source ist gegeben.
+        required: true
+  - type: markdown
+    attributes:
+      value: |
+        # Schlussbemerkungen
+        Bemerkungen und Referenzen auf andere relevante Dokumente. 
+  - type: textarea
+    id: Schlussbemerkungen
+    attributes:
+      label: Schlussbemerkungen
+      description: Falls ein Contributor License Agreement (CLA) verwendet wird, so sollte dies hier vermerkt werden (siehe Em002-3 Leitfaden OSS-Lizenzen 7.8).
+  - type: markdown
+    attributes:
+      value: |
+        **Ablage Formular**
+        Bitte legen Sie dieses Formular bei der Projektdokumentation ab und reichen Sie es bei der entsprechenden Stelle Ihrer Behörde (Organisationseinheit) ein. 
+        **Lizenz des Templates der Checkliste: CC0 1.0 Universal**
+        By marking the work with a CC0 public domain dedication, the creator is giving up their copyright and allowing reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.
+
