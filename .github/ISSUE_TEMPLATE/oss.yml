@@ -79,7 +79,7 @@ body:
     id: Veröffentlichen
     attributes:
       label: Wer veröffentlicht die Software?
-      description: Welche organisation führt die Veröffentlichung durch?
+      description: Welche Organisation führt die Veröffentlichung durch?
       options:
         - label: Bundesbehörde
         - label: Leistungserbringer
@@ -89,7 +89,7 @@ body:
     id: tiefe
     attributes:
       label: Tiefe der Freigabe
-      description: Resultat aus «Em002-4.1 Checkliste Community».
+      description: "Resultat aus «Em002-4.1 Checkliste Community»."
       options:
         - label: Minimalpublikation
         - label: Issue-Tracking
