@@ -94,18 +94,6 @@ body:
         - label: Minimalpublikation
         - label: Issue-Tracking
         - label: Community
-  - type: checkboxes
-    id: freigabe
-    attributes:
-      label: Freigabe
-      description: Die Abklärungen gemäss [Em002-2] Abschnitt 3.2 sind durchgeführt. Das Eigentum der Software liegt beim Bund oder wird durch Mitarbeitende des Bundes (intern oder extern) entwickelt. Begründung insbesondere, wenn nein. Es muss auch dargelegt werden, warum die Rechte nicht beim Bund liegen, und welche Abklärungen getroffen wurden für die Abklärung proprietärer Teile, sowie was bezüglich möglicher Hindernisse (z.B. Patentschutz) unternommen wurde, bzw. wie weit Abklärungen erfolgten.
-      options:
-        - label: Es liegt keine Verletzung von Rechten Dritter vor.
-          required: true
-        - label: Es liegen keine sicherheitsrelevanten Gründe vor, welche eine Veröffentlichung verhindern.
-          required: true
-        - label: Das Grundsätzliches Einverständnis und die Machbarkeit zur Veröffentlichung der Applikation als Open Source ist gegeben.
-          required: true
     - type: markdown
       attributes:
         value: |
