@@ -106,20 +106,20 @@ body:
           required: true
         - label: Das Grundsätzliches Einverständnis und die Machbarkeit zur Veröffentlichung der Applikation als Open Source ist gegeben.
           required: true
-    - type: markdown
-      attributes:
-        value: |
-          # Schlussbemerkungen
-          Bemerkungen und Referenzen auf andere relevante Dokumente. 
-    - type: textarea
-      id: schlussbemerkungen
-      attributes:
-        label: Schlussbemerkungen
-        description: "Falls ein Contributor License Agreement (CLA) verwendet wird, so sollte dies hier vermerkt werden (siehe Em002-3 Leitfaden OSS-Lizenzen 7.8)."
-    - type: markdown
-      attributes:
-        value: |
-          **Ablage Formular**
-          Bitte legen Sie dieses Formular bei der Projektdokumentation ab und reichen Sie es bei der entsprechenden Stelle Ihrer Behörde (Organisationseinheit) ein. 
-          **Lizenz des Templates der Checkliste: CC0 1.0 Universal**
-          By marking the work with a CC0 public domain dedication, the creator is giving up their copyright and allowing reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.
+  - type: markdown
+    attributes:
+      value: |
+        # Schlussbemerkungen
+        Bemerkungen und Referenzen auf andere relevante Dokumente. 
+  - type: textarea
+    id: schlussbemerkungen
+    attributes:
+      label: Schlussbemerkungen
+      description: "Falls ein Contributor License Agreement (CLA) verwendet wird, so sollte dies hier vermerkt werden (siehe Em002-3 Leitfaden OSS-Lizenzen 7.8)."
+  - type: markdown
+    attributes:
+      alue: |
+        **Ablage Formular**
+        Bitte legen Sie dieses Formular bei der Projektdokumentation ab und reichen Sie es bei der entsprechenden Stelle Ihrer Behörde (Organisationseinheit) ein. 
+        **Lizenz des Templates der Checkliste: CC0 1.0 Universal**
+        By marking the work with a CC0 public domain dedication, the creator is giving up their copyright and allowing reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.
