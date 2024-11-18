@@ -86,7 +86,7 @@ body:
         - label: Lieferant
         - label: Dritte
   - type: checkboxes
-    id: Tiefe
+    id: tiefe
     attributes:
       label: Tiefe der Freigabe
       description: Resultat aus «Em002-4.1 Checkliste Community».
@@ -95,7 +95,7 @@ body:
         - label: Issue-Tracking
         - label: Community
   - type: checkboxes
-    id: Freigabe
+    id: freigabe
     attributes:
       label: Freigabe
       description: Die Abklärungen gemäss [Em002-2] Abschnitt 3.2 sind durchgeführt. Das Eigentum der Software liegt beim Bund oder wird durch Mitarbeitende des Bundes (intern oder extern) entwickelt. Begründung insbesondere, wenn nein. Es muss auch dargelegt werden, warum die Rechte nicht beim Bund liegen, und welche Abklärungen getroffen wurden für die Abklärung proprietärer Teile, sowie was bezüglich möglicher Hindernisse (z.B. Patentschutz) unternommen wurde, bzw. wie weit Abklärungen erfolgten.
