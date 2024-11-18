@@ -1,0 +1,22 @@
+name: Em002-2.1 Checkliste Vorabklärung
+description: Checkliste für die Veröffentlichung von Open Source Software
+title: "[DATE]: [SOFTWARE NAME]"
+labels: new oss, needs triage
+assignees: olibrian
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Diese Checkliste gehört zu «Em002-2 Anleitung für die Veröffentlichung von Open Source Software». Sie ist zu Beginn eines Vorhabens oder bei der Abklärung, ob eine Software nicht veröffentlicht muss, auszufüllen. Die Beschreibung zur Checkliste findet sich in [Em002-2] in Abschnitt 3. In dieser Checkliste kann auch definiert werden, ob die Entwicklung als Open Development direkt auf einem öffentlichen Repository erfolgt. Für Legacy Code (der vor dem Inkrafttreten des EMBAG am 1.1.2024 entwickelt wurde) sind spezielle Zusatzfragen vorgesehen. Wichtig: Wird keine Freigabe als OSS erfolgen, so dient diese Checkliste auch als Begründung.
+        # Gegenstand
+        ## Name und Kurzbeschreibung der Software
+        Geben Sie den Namen der Software an. 
+        Dieser Name soll in allen folgenden OSS Checklisten zur korrekten Zuordnung identisch sein. 
+  - type: input
+    id: software
+    attributes:
+      label: Name der Software
+      description: Dieser Name soll in allen folgenden OSS Checklisten zur korrekten Zuordnung identisch sein. 
+    validations:
+      required: true
+
