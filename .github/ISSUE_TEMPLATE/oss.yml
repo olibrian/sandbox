@@ -118,7 +118,7 @@ body:
       description: "Falls ein Contributor License Agreement (CLA) verwendet wird, so sollte dies hier vermerkt werden (siehe Em002-3 Leitfaden OSS-Lizenzen 7.8)."
   - type: markdown
     attributes:
-      alue: |
+      value: |
         **Ablage Formular**
         Bitte legen Sie dieses Formular bei der Projektdokumentation ab und reichen Sie es bei der entsprechenden Stelle Ihrer Behörde (Organisationseinheit) ein. 
         **Lizenz des Templates der Checkliste: CC0 1.0 Universal**
