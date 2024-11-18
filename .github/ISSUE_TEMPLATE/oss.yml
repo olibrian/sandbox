@@ -20,7 +20,7 @@ body:
     validations:
       required: true
   - type: input
-    id: software
+    id: zweck
     attributes:
       label: Beschreiben Sie das Ziel und den Zweck der Software kurz. 
       description: Falls ein URL Link vorhanden ist, geben sie auch diesen an.
