@@ -19,4 +19,19 @@ body:
       description: Dieser Name soll in allen folgenden OSS Checklisten zur korrekten Zuordnung identisch sein. 
     validations:
       required: true
-
+  - type: input
+    id: software
+    attributes:
+      label: Beschreiben Sie das Ziel und den Zweck der Software kurz. 
+      description: Falls ein URL Link vorhanden ist, geben sie auch diesen an.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |## Ansprechperson und Prüfung
+Benennen Sie die Bundesbehörde (Organisationseinheit), die Ansprechperson und die für die rechtliche Prüfung verantwortlichen Personen (bspw. ISBO/DSBO, die die Einhaltung der Publikationsvorgaben geprüft haben.
+  - type: textarea
+    id: ansprechperson
+    attributes:
+      label: Ansprechperson und Prüfung
+      description: Benennen Sie die Bundesbehörde (Organisationseinheit), die Ansprechperson und die für die rechtliche Prüfung verantwortlichen Personen (bspw. ISBO/DSBO, die die Einhaltung der Publikationsvorgaben geprüft haben.
