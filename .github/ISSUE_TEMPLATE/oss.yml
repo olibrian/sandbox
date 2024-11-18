@@ -75,3 +75,13 @@ body:
         - label: Eigenentwicklung
         - label: Gemeinsame Entwicklung («Em002-4.1 Checkliste OSS-Community» ausfüllen)
         - label: Drittprojekt («Em002-4.1 Checkliste OSS-Community» ausfüllen)
+  - type: checkboxes
+    id: Veröffentlichen
+    attributes:
+      label: Wer veröffentlicht die Software?
+      description: Welche Organisation führt die Veröffentlichung durch?
+      options:
+        - label: Bundesbehörde
+        - label: Leistungserbringer
+        - label: Lieferant
+        - label: Dritte
