@@ -30,7 +30,7 @@ body:
     attributes:
       value: |
       ## Ansprechperson und Prüfung
-Benennen Sie die Bundesbehörde (Organisationseinheit), die Ansprechperson und die für die rechtliche Prüfung verantwortlichen Personen (bspw. ISBO/DSBO, die die Einhaltung der Publikationsvorgaben geprüft haben.
+      Benennen Sie die Bundesbehörde (Organisationseinheit), die Ansprechperson und die für die rechtliche Prüfung verantwortlichen Personen (bspw. ISBO/DSBO, die die Einhaltung der Publikationsvorgaben geprüft haben.
   - type: textarea
     id: ansprechperson
     attributes:
