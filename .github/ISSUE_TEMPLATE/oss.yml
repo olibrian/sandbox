@@ -92,7 +92,7 @@ body:
       description: Resultat aus «Em002-4.1 Checkliste Community».
       options:
         - label: Minimalpublikation
-        - label: Issue-Tracking: Fehler können gemeldet werden und werden behandelt.
+        - label: Issue-Tracking
         - label: Community
   - type: checkboxes
     id: Freigabe
