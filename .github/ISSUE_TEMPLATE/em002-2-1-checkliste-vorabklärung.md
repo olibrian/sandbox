@@ -1,5 +1,5 @@
 ---
-name: Em002-2.1 Checkliste Vorabklärung
+name: Em002-2.1 Checkliste Vorabklärung_md
 about: Checkliste für die Veröffentlichung von Open Source Software
 title: ''
 labels: ''
