@@ -67,7 +67,7 @@ body:
         - label: Potenzielle Nutzende
         - label: Bekannte Nutzende
   - type: checkboxes
-    id: Eigenentwicklung
+    id: eigenentwicklung
     attributes:
       label: Eigenentwicklung, Gemeinsame Entwicklung oder Drittprojekt
       description: Wie ist die Grundstruktur? Handelt es sich um eine Eigenentwicklung des Bundes, eine Zusammenarbeit oder wird auf einem Drittprojekt aufgebaut?  Die Struktur von Co-Entwicklung und Drittprojekt kann im Textblock aufgeführt werden (siehe [Em002-2] Abschnitt 3.1). 
@@ -85,3 +85,26 @@ body:
         - label: Leistungserbringer
         - label: Lieferant
         - label: Dritte
+  - type: checkboxes
+    id: tiefe
+    attributes:
+      label: Tiefe der Freigabe
+      description: "Resultat aus «Em002-4.1 Checkliste Community»."
+      options:
+        - label: Minimalpublikation
+        - label: Issue-Tracking
+        - label: Community
+  - type: checkboxes
+    id: freigabe
+    attributes:
+      label: Freigabe
+      description: Die Abklärungen gemäss [Em002-2] Abschnitt 3.2 sind durchgeführt. Das Eigentum der Software liegt beim Bund oder wird durch Mitarbeitende des Bundes (intern oder extern) entwickelt. Begründung insbesondere, wenn nein. Es muss auch dargelegt werden, warum die Rechte nicht beim Bund liegen, und welche Abklärungen getroffen wurden für die Abklärung proprietärer Teile, sowie was bezüglich möglicher Hindernisse (z.B. Patentschutz) unternommen wurde, bzw. wie weit Abklärungen erfolgten.
+      options:
+        - label: Es liegt keine Verletzung von Rechten Dritter vor.
+          required: true
+        - label: Es liegen keine sicherheitsrelevanten Gründe vor, welche eine Veröffentlichung verhindern.
+          required: true
+        - label: Das Grundsätzliches Einverständnis und die Machbarkeit zur Veröffentlichung der Applikation als Open Source ist gegeben.
+          required: true
+          
+
