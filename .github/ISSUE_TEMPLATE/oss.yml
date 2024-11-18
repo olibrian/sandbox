@@ -85,15 +85,6 @@ body:
         - label: Leistungserbringer
         - label: Lieferant
         - label: Dritte
-  - type: checkboxes
-    id: tiefe
-    attributes:
-      label: Tiefe der Freigabe
-      description: "Resultat aus «Em002-4.1 Checkliste Community»."
-      options:
-        - label: Minimalpublikation
-        - label: Issue-Tracking
-        - label: Community
     - type: markdown
       attributes:
         value: |
