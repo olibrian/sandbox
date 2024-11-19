@@ -36,64 +36,64 @@ body:
     attributes:
       label: Ansprechperson und Prüfung
       description: Benennen Sie die Bundesbehörde (Organisationseinheit), die Ansprechperson und die für die rechtliche Prüfung verantwortlichen Personen (bspw. ISBO/DSBO, die die Einhaltung der Publikationsvorgaben geprüft haben.
-  - type: checkboxes
+  - type: dropdown
     id: new_legacy
     attributes:
       label: Neue Software oder Legacy
       description: Handelt es sich um neue Software oder ein bestehendes Projekt (siehe [Em002-2] Abschnitt 3.1).
       options:
-        - label: Legacy (Weiterentwicklung)
-        - label: Neue Software
-        - label: Legacy oder Weiterentwicklung Legacy Software
-        - label: Bestehendes Projekt Dritter (→ Checkliste OSS-Community ausfüllen)
-  - type: checkboxes
+        - Legacy (Weiterentwicklung)
+        - Neue Software
+        - Legacy oder Weiterentwicklung Legacy Software
+        - Bestehendes Projekt Dritter (→ Checkliste OSS-Community ausfüllen)
+  - type: dropdown
     id: lifecycle
     attributes:
       label: Life Cycle
       description: In welchem Stadium des Life Cycle ist die Software aktuell (siehe [Em002-2] Abschnitt 3.1).
       options:
-        - label: Geplant
-        - label: In Entwicklung
-        - label: Im Betrieb
-        - label: End of Life
-        - label: Archiv
-  - type: checkboxes
+        - Geplant
+        - In Entwicklung
+        - Im Betrieb
+        - End of Life
+        - Archiv
+  - type: dropdown
     id: Nutzende
     attributes:
       label: Nutzende
       description: Gibt es potenzielle oder bereits bekannte Personen oder Organisationen, welche die Software nutzen? Gibt es potenzielle Abnehmer der Software? Mögliche und bekannte Nutzende können im Text aufgeführt werden.
       options:
-        - label: Keine vorstellbar
-        - label: Potenzielle Nutzende
-        - label: Bekannte Nutzende
-  - type: checkboxes
+        - Keine vorstellbar
+        - Potenzielle Nutzende
+        - Bekannte Nutzende
+  - type: dropdown
     id: eigenentwicklung
     attributes:
       label: Eigenentwicklung, Gemeinsame Entwicklung oder Drittprojekt
       description: Wie ist die Grundstruktur? Handelt es sich um eine Eigenentwicklung des Bundes, eine Zusammenarbeit oder wird auf einem Drittprojekt aufgebaut?  Die Struktur von Co-Entwicklung und Drittprojekt kann im Textblock aufgeführt werden (siehe [Em002-2] Abschnitt 3.1). 
       options:
-        - label: Eigenentwicklung
-        - label: Gemeinsame Entwicklung («Em002-4.1 Checkliste OSS-Community» ausfüllen)
-        - label: Drittprojekt («Em002-4.1 Checkliste OSS-Community» ausfüllen)
-  - type: checkboxes
+        - Eigenentwicklung
+        - Gemeinsame Entwicklung («Em002-4.1 Checkliste OSS-Community» ausfüllen)
+        - Drittprojekt («Em002-4.1 Checkliste OSS-Community» ausfüllen)
+  - type: dropdown
     id: veroeffentlichen
     attributes:
       label: Wer veröffentlicht die Software?
       description: Welche Organisation führt die Veröffentlichung durch?
       options:
-        - label: Bundesbehörde
-        - label: Leistungserbringer
-        - label: Lieferant
-        - label: Dritte
-  - type: checkboxes
+        - Bundesbehörde
+        - Leistungserbringer
+        - Lieferant
+        - Dritte
+  - type: dropdown
     id: tiefe
     attributes:
       label: Tiefe der Freigabe
       description: "Resultat aus «Em002-4.1 Checkliste Community»."
       options:
-        - label: Minimalpublikation
-        - label: Issue-Tracking
-        - label: Community
+        - Minimalpublikation
+        - Issue-Tracking
+        - Community
   - type: checkboxes
     id: freigabe
     attributes:
