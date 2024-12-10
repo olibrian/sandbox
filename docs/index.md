@@ -16,9 +16,9 @@ The following tools are available in the form of guidelines, instructions, check
 
 [Em002 Strategischer Leitfaden Open Source Software in der Bundesverwaltung V2.0](en/em002.md) (02.10.2024)
 
-[Em002-1 Praxisleitfaden Praxis-Leitfaden Open Source Software in der Bundesverwaltung V2.0](en/em002.1.md) (02.10.2024)
+[Em002-1 Praxisleitfaden Praxis-Leitfaden Open Source Software in der Bundesverwaltung V2.0](en/em002-1.md) (02.10.2024)
 
-[Em002-2 Anleitung zur Veroeffentlichung von Open Source Software](en/em002.2.md) (02.10.2024)
+[Em002-2 Anleitung zur Veroeffentlichung von Open Source Software](en/em002-2.md) (02.10.2024)
 
 [Em002-2.1 Checkliste Vorabklärung](https://github.com/olibrian/sandbox/issues/new?assignees=olibrian&labels=new+oss%2C+needs+triage&projects=&template=oss.yml&title=%5BDATE%5D%3A+%5BSOFTWARE+NAME%5D) (Github Issue 02.10.2024)
 
@@ -26,13 +26,13 @@ Em002-2.2 Checkliste Analyse und Aufbereitung (DOCX, 92 kB, 02.10.2024)
 
 Em002-2.3 Checkliste-Freigabe-und-Publikation (DOCX, 93 kB, 02.10.2024)
 
-[Em002-3 Leitfaden OSS-Lizenzen](en/em002.3.md) (02.10.2024)
+[Em002-3 Leitfaden OSS-Lizenzen](en/em002-3.md) (02.10.2024)
 
-[Em002-4 Leitfaden OSS-Community](en/em002.4.md) (02.10.2024)
+[Em002-4 Leitfaden OSS-Community](en/em002-4.md) (02.10.2024)
 
 Em002-4.1 Checkliste_OSS-Community (DOCX, 94 kB, 02.10.2024)
 
-[Em002-5 Faktenblatt EMBAG und OSS](en/em002.5.md) (02.10.2024)
+[Em002-5 Faktenblatt EMBAG und OSS](en/em002-5.md) (02.10.2024)
 
 Em002-6 Häufig gestellte Fragen zur Veröffentlichung von OSS (OSS-FAQ) (PDF, 379 kB, 02.10.2024)
 
