@@ -19,9 +19,9 @@ Em002 Strategischer Leitfaden Open Source Software in der Bundesverwaltung V2.0 
 
 [Em002 Strategischer Leitfaden Open Source Software in der Bundesverwaltung V2.0](de/em002.md) (02.10.2024)
 
-[Em002-1 Praxisleitfaden Praxis-Leitfaden Open Source Software in der Bundesverwaltung V2.0](de/em002_1.md) (02.10.2024)
+[Em002-1 Praxisleitfaden Praxis-Leitfaden Open Source Software in der Bundesverwaltung V2.0](de/em002.1.md) (02.10.2024)
 
-[Em002-2 Anleitung zur Veroeffentlichung von Open Source Software](de/em002_2.md) (02.10.2024)
+[Em002-2 Anleitung zur Veroeffentlichung von Open Source Software](de/em002.2.md) (02.10.2024)
 
 [Em002-2.1 Checkliste Vorabklärung](https://github.com/olibrian/sandbox/issues/new?assignees=olibrian&labels=new+oss%2C+needs+triage&projects=&template=oss.yml&title=%5BDATE%5D%3A+%5BSOFTWARE+NAME%5D) (Github Issue 02.10.2024)
 
@@ -29,52 +29,14 @@ Em002-2.2 Checkliste Analyse und Aufbereitung (DOCX, 92 kB, 02.10.2024)
 
 Em002-2.3 Checkliste-Freigabe-und-Publikation (DOCX, 93 kB, 02.10.2024)
 
-[Em002-3 Leitfaden OSS-Lizenzen](de/em002_3.md) (02.10.2024)
+[Em002-3 Leitfaden OSS-Lizenzen](de/em002.3.md) (02.10.2024)
 
-[Em002-4 Leitfaden OSS-Community](de/em002_4.md) (02.10.2024)
+[Em002-4 Leitfaden OSS-Community](de/em002.4.md) (02.10.2024)
 
 Em002-4.1 Checkliste_OSS-Community (DOCX, 94 kB, 02.10.2024)
 
-[Em002-5 Faktenblatt EMBAG und OSS](de/em002_5.md) (02.10.2024)
+[Em002-5 Faktenblatt EMBAG und OSS](de/em002.5.md) (02.10.2024)
 
-Em002-6 Häufig gestellte Fragen zur Veröffentlichung von OSS (OSS-FAQ) (PDF, 379 kB, 02.10.2024)
+[Em002-6 Häufig gestellte Fragen zur Veröffentlichung von OSS (OSS-FAQ)](de/em002-6.md) (02.10.2024)
 
 Ein weiteres Merkblatt zu Beschaffungen in Zusammenhang mit EMBAG Art. 9 ist in Arbeit.
-
----
-
-You can use the [editor on GitHub](https://github.com/olibrian/sandbox/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/olibrian/sandbox/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
