@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Verzeichnis festlegen (aktuelles Verzeichnis oder spezifisches). Script direkt im Ordner /docs/de oder /docs/en auführen
+# Verzeichnis festlegen (aktuelles Verzeichnis oder spezifisches). Script direkt im Ordner /docs/de oder /docs/en mit dem Befehl "../../convert.sh en" auführen
 
-i18n="en"
+i18n=$1 #wird als Argument geliefert
 SRC_DIR="../../src/$i18n/"
 DES_DIR="./"
 
@@ -20,5 +20,5 @@ for file in "$SRC_DIR"*.docx; do
   output=$DES_DIR$filename_short_lc".md"
   echo "Konvertiere $file -> $output"
   # Pandoc-Befehl ausführen
-  pandoc -f docx -t markdown "$file" -o "$output" -t gfm --extract-media $DES_DIR"assets/""$filename_short_lc"/
+  pandoc -f docx -t markdown "$file" -o "$output" -t gfm --extract-media $DES_DIR"assets/""$filename_short_lc"/ --template=../../header_$i18n.md
 done
