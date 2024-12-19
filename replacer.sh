@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Verzeichnis festlegen (aktuelles Verzeichnis oder spezifisches). Script direkt im Ordner /docs/de oder /docs/en mit dem Befehl "../../convert.sh en" auführen
+# Script direkt im Ordner /docs/de oder /docs/en mit dem Befehl "../../convert.sh en" auführen
+# ACHTUNG: Script nur eimal ausführen da sonst die Wörter doppelt ersetzt werden!!
 
 i18n=$1 #wird als Argument geliefert
 SRC_DIR="./en/"
