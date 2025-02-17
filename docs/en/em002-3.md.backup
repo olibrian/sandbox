@@ -422,33 +422,90 @@ Additional tools for checking licence compatibilities include:
 The following table shows various use cases for open source software and
 the suitable licences for each.
 
-| Use case | Licence(s) | Justification |
-| --- | --- | --- |
-| Use and contribute to existing project | Licence as specified by the project | Necessary for legal reasons. |
-| Licence is forced by the use of existing parts (licences with copyleft) | Use licence compatible with the parts. | Necessary for legal reasons. |
-| Existing ecosystem with preferred licence (e.g. it is a plugin for software released under MIT licence. Then using an MIT licence would be most purposeful, as all other users expect this and the software integrates into the ecosystem) | Use licence if it is on the list, otherwise use the same licence as much as possible | Acceptance in the community is central. |
-| Goal is the widest possible distribution, e.g. for a reference implementation[10] (e.g. for, which should also flow into commercial solutions). | BSD v3
-MIT
-Apache Licence 2.0
-LGPL v3 | In this case, no copyleft should be used. |
-| Modifications to the code should flow back to the federal authorities | AGPL v.3
-GPL v.3
-EUPL | AGPL also enforces release by third parties when used in the cloud, GPL and EUPL do not. |
-| SaaS solutions should not be exempt from the backflow of code changes | AGPL v.3 | AGPL also enforces release by third parties when used in the cloud. |
-| Easy collaboration with the community is important. | GNU GPL v3
-Apache Licence 2.0 | GPL preferred to keep the software free.
-Apache contains rules for community governance, additional rules for contributions (you may not specify a licence other than Apache; the contribution as such is not regulated in more detail, so if a CLA exists, that should take precedence), a patent licence, rules for patent licensing. Especially also that anyone who asserts patents against another contributor loses their patent licence under the Apache licence. The rules that the Apache Foundation sets for contributions are decisive. Apache therefore makes sense if the project governance is to be built primarily according to Apache. |
-| Small, universally usable component (library) or small piece of software where sustainability or maintenance by a community is not important | Apache Licence 2.0
-BSD v3
-MIT
-LGPL v3 | LGPL stipulates a copyleft only for the component itself, but not for the entire project into which the component is inserted.
-The other licences are permissive. |
-| It must be simply and permissive; control is not important | Apache Licence 2.0
-BSD v3
-MIT | Maximally permissive |
-| It is important for the federal authorities what happens to the code and they want to receive as many improvements as possible | GNU GPLv3 | Copyleft |
-| It should be prevented that the software becomes proprietary and is positioned as a competitive product on the market | GNU GPLv3 | Copyleft |
-| It should be prevented that the federal authorities become dependent on individual suppliers ('supplier lock-in') | GNU GPLv3 | The copyleft prevents a supplier from gaining a unique position over time by using the Confederation's software in a proprietary product, which could again lead to a dependency for the Confederation on this supplier. |
+<table>
+<thead>
+<tr class="header">
+<th><strong>Use case</strong></th>
+<th><strong>Licence(s)</strong></th>
+<th><strong>Justification</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Use and contribute to existing project</td>
+<td><strong>Licence as specified by the project</strong></td>
+<td>Necessary for legal reasons.</td>
+</tr>
+<tr class="even">
+<td>Licence is forced by the use of existing parts (licences with copyleft)</td>
+<td><strong>Use licence compatible with the parts.</strong></td>
+<td>Necessary for legal reasons.</td>
+</tr>
+<tr class="odd">
+<td>Existing ecosystem with preferred licence (e.g. it is a plugin for software released under MIT licence. Then using an MIT licence would be most purposeful, as all other users expect this and the software integrates into the ecosystem)</td>
+<td><strong>Use licence if it is on the list, otherwise use the same licence as much as possible</strong></td>
+<td>Acceptance in the community is central.</td>
+</tr>
+<tr class="even">
+<td>Goal is the widest possible distribution, e.g. for a reference implementation[10] (e.g. for, which should also flow into commercial solutions).</td>
+<td><p>BSD v3</p>
+<p>MIT</p>
+<p>Apache Licence 2.0</p>
+<p>LGPL v3</p></td>
+<td>In this case, no copyleft should be used.</td>
+</tr>
+<tr class="odd">
+<td>Modifications to the code should flow back to the federal authorities</td>
+<td><p><strong>AGPL v.3</strong></p>
+<p>GPL v.3</p>
+<p>EUPL</p></td>
+<td>AGPL also enforces release by third parties when used in the cloud, GPL and EUPL do not.</td>
+</tr>
+<tr class="even">
+<td>SaaS solutions should not be exempt from the backflow of code changes</td>
+<td><strong>AGPL v.3</strong></td>
+<td>AGPL also enforces release by third parties when used in the cloud.</td>
+</tr>
+<tr class="odd">
+<td>Easy collaboration with the community is important.</td>
+<td><p><strong>GNU GPL v3</strong></p>
+<p>Apache Licence 2.0</p></td>
+<td><p>GPL preferred to keep the software free.</p>
+<p>Apache contains rules for community governance, additional rules for contributions (you may not specify a licence other than Apache; the contribution as such is not regulated in more detail, so if a CLA exists, that should take precedence), a patent licence, rules for patent licensing. Especially also that anyone who asserts patents against another contributor loses their patent licence under the Apache licence. The rules that the Apache Foundation sets for contributions are decisive. Apache therefore makes sense if the project governance is to be built primarily according to Apache.</p></td>
+</tr>
+<tr class="even">
+<td>Small, universally usable component (library) or small piece of software where sustainability or maintenance by a community is not important</td>
+<td><p><strong>Apache Licence 2.0</strong></p>
+<p><strong>BSD v3</strong></p>
+<p><strong>MIT</strong></p>
+<p>LGPL v3</p></td>
+<td><p>LGPL stipulates a copyleft only for the component itself, but not for the entire project into which the component is inserted.</p>
+<p>The other licences are permissive.</p></td>
+</tr>
+<tr class="odd">
+<td>It must be simply and permissive; control is not important</td>
+<td><p><strong>Apache Licence 2.0</strong></p>
+<p><strong>BSD v3</strong></p>
+<p><strong>MIT</strong></p></td>
+<td>Maximally permissive</td>
+</tr>
+<tr class="even">
+<td>It is important for the federal authorities what happens to the code and they want to receive as many improvements as possible</td>
+<td><strong>GNU GPLv3</strong></td>
+<td>Copyleft</td>
+</tr>
+<tr class="odd">
+<td>It should be prevented that the software becomes proprietary and is positioned as a competitive product on the market</td>
+<td><strong>GNU GPLv3</strong></td>
+<td>Copyleft</td>
+</tr>
+<tr class="even">
+<td>It should be prevented that the federal authorities become dependent on individual suppliers ('supplier lock-in')</td>
+<td><strong>GNU GPLv3</strong></td>
+<td>The copyleft prevents a supplier from gaining a unique position over time by using the Confederation's software in a proprietary product, which could again lead to a dependency for the Confederation on this supplier.</td>
+</tr>
+</tbody>
+</table>
 
 Table : Licence to be used depending on use case for the release of new
 software according to Art. 9 EMOTA (bold=preferred for use)
@@ -838,14 +895,37 @@ Administration* and *[Em002-6 FAQ on OSS and Art. 9 EMOTA](em002-6.md).*
     
     D.1 trustbroker.swiss
 
-| URL | https://github.com/trustbroker-swiss/trustbroker.swiss |
-| --- | --- |
-| Federal authority | FCh, FOITT |
-| Description | Trust Broker Swiss provides federation services between relying parties (applications, service providers, other IAM Systems or policy enforcement points) and identity Providers (IdP, aslo called claims providers) using trusted attribute stores to enrich authenticated users.
-It enables identity/claims providers and relying parties to exchange information via a third party hiding the IdP specifics providing a unified or at least additionally verified identity. |
-| Year | 2024 |
-| Licence | AGPL |
-| Justification | Code changes should always remain open and be returned. |
+<table>
+<thead>
+<tr class="header">
+<th>URL</th>
+<th><a href="https://github.com/trustbroker-swiss/trustbroker.swiss">https://github.com/trustbroker-swiss/trustbroker.swiss</a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Federal authority</td>
+<td>FCh, FOITT</td>
+</tr>
+<tr class="even">
+<td>Description</td>
+<td><p>Trust Broker Swiss provides federation services between relying parties (applications, service providers, other IAM Systems or policy enforcement points) and identity Providers (IdP, aslo called claims providers) using trusted attribute stores to enrich authenticated users.</p>
+<p>It enables identity/claims providers and relying parties to exchange information via a third party hiding the IdP specifics providing a unified or at least additionally verified identity.</p></td>
+</tr>
+<tr class="odd">
+<td>Year</td>
+<td>2024</td>
+</tr>
+<tr class="even">
+<td>Licence</td>
+<td>AGPL</td>
+</tr>
+<tr class="odd">
+<td>Justification</td>
+<td>Code changes should always remain open and be returned.</td>
+</tr>
+</tbody>
+</table>
 
 D.2 Geocat.ch
 
