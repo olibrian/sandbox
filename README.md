@@ -1,5 +1,7 @@
 # Sandbox Repo
 
+Vorlage für ein Readme in deutsch
+
 ## Inhaltsverzeichnis
 1. [Allgemeine Informationen](#general-info)
 2. [Technologien](#technologies)
