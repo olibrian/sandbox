@@ -18,7 +18,7 @@ Enter general information about your project here. It’s always worth stating t
 A list of the technologies used in the project:
 * [Technology name](https://example.com): Version 12.3
 * [Technology name](https://example.com): Version 2.34
-* [Name of library](https://example.com): Version 1234
+* [Library name](https://example.com): Version 1234
 ## Installation
 ***
 A brief guide to installation.
@@ -29,12 +29,14 @@ $ npm install
 $ npm start
 ```
 Additional information: To use the application in a specific environment, use ```lorem ipsum``` to start it
-## Collaboration
+## Contributing
 ***
-Provide instructions on how to collaborate on your project.
+Provide instructions on how to contribute to your project.
+
 &gt; You might want to include a quote in this section.
 &gt; Should it span several lines?
 &gt; Here’s how to do it.
+
 ## FAQs
 ***
 A list of frequently asked questions
@@ -48,6 +50,7 @@ To answer this question, we’ll use an unordered list:
 3. **Third question in bold**
 Answer to the third question using *italicised words*.
 4. **Fourth question in bold**
+
 | Heading 1 in the table header | Heading 2 in the table header | Heading 3 in the table header |
 |:--------------|:-------------:|--------------:|
-| Left-aligned text | Centred text | Right-aligned text |
+| Text left-aligned | Text centred | Text right-aligned |
