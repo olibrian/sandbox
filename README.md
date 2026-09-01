@@ -1,6 +1,6 @@
 # Sandbox Repo
 
-Vorlage für ein deutsches Readme.
+Vorlage für ein deutsches Readme für mein Sandbox Repo.
 
 ## Inhaltsverzeichnis
 1. [Allgemeine Informationen](#general-info)
