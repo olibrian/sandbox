@@ -23,7 +23,7 @@ jobs:
           deepl_api_key: ${{ secrets.DEEPL_API_KEY }}
           input_file_path: 'README.md'
           output_file_name_pattern: 'README.en.md'
-          target_languages: 'EN'
+          target_languages: 'en-GB'
 
       - name: Commit translated file
         uses: stefanzweifel/git-auto-commit-action@v5
