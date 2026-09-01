@@ -25,7 +25,17 @@ jobs:
           output_file_name_pattern: 'README.en.md'
           target_languages: 'en-GB'
 
+      - name: Generate PDF from German Markdown
+        uses: docker://pandoc/extra:latest
+        with:
+          args: README.md -o README.pdf --pdf-engine=xelatex -V geometry:margin=2cm
+
+      - name: Generate PDF from English Markdown
+        uses: docker://pandoc/extra:latest
+        with:
+          args: README.en.md -o README.en.pdf --pdf-engine=xelatex -V geometry:margin=2cm
+
       - name: Commit translated file
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "docs: auto-translate README [skip ci]"
+          commit_message: "docs: update translations and generated PDFs [skip ci]"
