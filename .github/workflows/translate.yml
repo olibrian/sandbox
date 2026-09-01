@@ -11,21 +11,21 @@ jobs:
   translate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Erlaubt das Committen der übersetzten Datei
+      contents: write # Wichtig für die Commit-Rechte
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Translate Markdown
-        uses: meysamhadeli/codex-translator@v1 # Verwendet DeepL / LLM zur Übersetzung
+      - name: DeepL Translate
+        uses: lyqht/deepl-translate-github-action@v2.1.0
         with:
-          api_key: ${{ secrets.DEEPL_API_KEY }}
-          source_file: 'README.md'
-          target_file: 'README.en.md'
-          target_lang: 'EN'
+          deepl_api_key: ${{ secrets.DEEPL_API_KEY }}
+          input_file_path: 'README.md'
+          output_file_name_pattern: 'README.en.md'
+          target_languages: 'EN'
 
       - name: Commit translated file
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "docs: update automatic translation [skip ci]"
+          commit_message: "docs: auto-translate README [skip ci]"
