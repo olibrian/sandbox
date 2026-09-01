@@ -32,9 +32,11 @@ Zusatzinfo: Um die Anwendung in einer speziellen Umgebung zu nutzen, verwende ``
 ## Mitarbeit
 ***
 Gib Anweisungen, wie man an deinem Projekt mitarbeiten kann.
+
 > Vielleicht möchtest du in diesem Abschnitt ein Zitat einfügen.
 > Soll es sich über mehrere Zeilen erstrecken?
 > So machst du das.
+
 ## FAQs
 ***
 Eine Liste häufig gestellter Fragen
@@ -48,6 +50,7 @@ Um diese Frage zu beantworten, verwenden wir eine ungeordnete Liste:
 3. **Dritte Frage in Fettdruck**
 Antwort auf die dritte Frage mit *kursiven Wörtern*.
 4. **Vierte Frage in Fettdruck**
+
 | Überschrift 1 in der Tabellenüberschrift | Überschrift 2 in der Tabellenüberschrift | Überschrift 3 in der Tabellenüberschrift |
 |:--------------|:-------------:|--------------:|
 | Text linksbündig | Text zentriert | Text rechtsbündig |
