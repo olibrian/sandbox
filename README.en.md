@@ -1,6 +1,6 @@
 # Sandbox Repo
 
-Template for a German README.
+Template for a German Readme for my Sandbox Repo.
 
 ## Table of Contents
 1. [General Information](#general-info)
@@ -10,7 +10,7 @@ Template for a German README.
 5. [FAQs](#faqs)
 ### General Information
 ***
-Enter general information about your project here. It’s always worth stating the project status in the README document. You can add it here.
+Enter general information about your project here. It’s always worth including the project status in the README document. You can add it here.
 ### Screenshot
 ![Image caption](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
 ## Technologies
@@ -21,14 +21,14 @@ A list of the technologies used in the project:
 * [Library name](https://example.com): Version 1234
 ## Installation
 ***
-A brief guide to installation.
+A brief introduction to the installation process.
 ```
 $ git clone https://example.com
 $ cd ../path/to/file
 $ npm install
 $ npm start
 ```
-Additional information: To use the application in a specific environment, use ```lorem ipsum``` to start it
+Additional info: To use the application in a specific environment, use ```lorem ipsum``` to start it
 ## Contributing
 ***
 Provide instructions on how to contribute to your project.
@@ -53,4 +53,4 @@ Answer to the third question using *italicised words*.
 
 | Heading 1 in the table header | Heading 2 in the table header | Heading 3 in the table header |
 |:--------------|:-------------:|--------------:|
-| Text left-aligned | Text centred | Text right-aligned |
+| Left-aligned text | Centred text | Right-aligned text |
